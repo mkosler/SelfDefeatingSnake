@@ -1,0 +1,42 @@
+h1. Self-defeating Snake!
+
+h2. My GGJ 2012 game (even though I didn't attend...)
+
+*Overview*
+This is a Global Game Jam-"theme":http://globalgamejam.org/news/2012/01/27/and-ggj-2012-theme 
+inspired game, that also tries to use the diversifier 
+"I know what you did last...":http://globalgamejam.org/wiki/achievements-diversifiers.
+You play as a snake that must eat food pellets. As you eat the food pellets,
+your snake grows longer and longer. You lose the game by either hitting
+yourself or the edge of the map.
+
+This is the exact model for any normal game of Snake. However, mine has
+an extra component to increase the difficult, and try to adhere to my 
+chosen achievement. You have a countdown timer that, if it reaches 0, will
+record your movement until you eat a new pellet, at which point a stationary
+wall is created that lasts until the end of the game. You can add time to this
+countdown by eating pellets, so the game becomes not only eat as many pellets
+as possible, but do it fast or else.
+
+*Controls*
+
+* Arrow keys: move your player;
+* ESC: Quit the game.
+
+*To Do*
+
+* Add menus and extra polish;
+* Support more resolutions;
+* Add multiplayer modes;
+* Fix bugs.
+
+_Known bugs_
+
+* Snake doesn't collide with its own body;
+* Food pellets can spawn on the snake;
+* Food pellets can spawn in impossible areas (such as enclosed by walls
+and areas with only one entrance.
+
+_Change log_
+
+* 01/28/2012: Initial commit. Minimum game mechanics. No polish.
